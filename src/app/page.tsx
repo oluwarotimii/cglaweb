@@ -70,7 +70,7 @@ export default function Home() {
           {testimonials.map((testimonial, index) => (
             <Card key={index}>
               <CardContent className="pt-6">
-                <blockquote className="italic text-gray-600 mb-4">"{testimonial.quote}"</blockquote>
+                <blockquote className="italic text-gray-600 mb-4">&qout;{testimonial.quote}&qout;</blockquote>
                 <p className="font-semibold">{testimonial.name}</p>
                 <p className="text-sm text-gray-500">{testimonial.role}</p>
               </CardContent>

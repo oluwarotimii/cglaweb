@@ -74,7 +74,7 @@ export const LoginForm: React.FC = () => {
           Forgot password?
         </Link>
         <Link href="/signup" className="text-sm text-blue-600 hover:underline">
-          Don't have an account? Sign up
+          Don&apos; have an account? Sign up
         </Link>
       </CardFooter>
     </Card>
